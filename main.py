@@ -10,6 +10,8 @@ gameOn = True
 
 
 def welcome(info_board):
+    """Displays the welcome message and the structure of the board
+    """
     print("WELCOME TO TICTACTOE!!!!")
     print(f"{info_board[0]} | {info_board[1]} | {info_board[2]} ")
     print(f"{info_board[3]} | {info_board[4]} | {info_board[5]} ")
