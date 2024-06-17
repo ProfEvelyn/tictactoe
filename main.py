@@ -47,6 +47,9 @@ def switchPlayer():
 
 
 def checkrows(board):
+    """
+    checks if the rows have the same characters
+    """
     if board[0] == board[1] == board[2] and board[0] != '-':
         return True
     if board[3] == board[4] == board[5] and board[4] != '-':
