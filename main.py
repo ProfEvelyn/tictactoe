@@ -72,6 +72,9 @@ def checkDiagonal(board):
 
 
 def checkWinner():
+    """
+    Checks which player managed to win the game
+    """
     global gameOn, currentPlayer
     if checkDiagonal(board) or checkrows(board) or checkcolumns(board):
         print(f"\n____________ Player {currentPlayer} won!_____________")
